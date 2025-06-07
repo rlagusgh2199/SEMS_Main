@@ -13,4 +13,4 @@
 | [web-server/](https://github.com/haha096/SEMS_Project)         | 🌐 웹 서버(Spring Boot + React) 서브모듈 |
 | [project-docs/](https://github.com/yimjongwon/project_7)       | 📁 문서 저장소 (보고서, 발표자료 등) 서브모듈 |
 
-
+## 프로젝트 개요
