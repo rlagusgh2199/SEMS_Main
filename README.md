@@ -1,6 +1,11 @@
-#🌿 Smart Environmental Management System
+# 🌿 Smart Environmental Management System
 
-스마트 환경관리 시스템 메인 저장소입니다. 각 하위 모듈 및 구성요소는 다음과 같이 구성되어 있습니다.
+<p align="center">
+  <img width="400" src="./assets/sems_logo.png" alt="SEMS Logo">
+</p>
+
+
+# SEMS: 스마트 환경관리 시스템
 
 ## 📁 프로젝트 폴더 구조
 
