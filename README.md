@@ -4,9 +4,6 @@
   <img width="850" src="./assets/SEMS_logo.jpg" alt="SEMS Logo">
 </p>
 
-
-# SEMS: 스마트 환경관리 시스템
-
 ## 📁 프로젝트 폴더 구조
 
 | 폴더명             | 설명 |
