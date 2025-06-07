@@ -1,4 +1,4 @@
-# SEMS_Main
+#🌿 Smart Environmental Management System
 
 스마트 환경관리 시스템 메인 저장소입니다. 각 하위 모듈 및 구성요소는 다음과 같이 구성되어 있습니다.
 
