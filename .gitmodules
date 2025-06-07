@@ -1,0 +1,3 @@
+[submodule "SEMS_Project"]
+	path = SEMS_Project
+	url = https://github.com/haha096/SEMS_Project.git
