@@ -1,3 +1,6 @@
 [submodule "web-server"]
 	path = web-server
 	url = https://github.com/haha096/SEMS_Project.git
+[submodule "project-docs"]
+	path = project-docs
+	url = https://github.com/yimjongwon/project_7.git
