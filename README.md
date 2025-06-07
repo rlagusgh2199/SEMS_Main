@@ -13,11 +13,11 @@
 | [web-server/](https://github.com/haha096/SEMS_Project)         | 🌐 웹 서버(Spring Boot + React) 서브모듈 |
 | [project-docs/](https://github.com/yimjongwon/project_7)       | 📁 문서 저장소 (보고서, 발표자료 등) 서브모듈 |
 
-## 📌 프로젝트 개요
+# 📌 프로젝트 개요
 
 ### 🔍 개발 배경 및 필요성
 
-![개요](https://github.com/user-attachments/assets/d1b5a6b0-91d6-4198-a2f6-a9770555fdb6)
+<img src="https://github.com/user-attachments/assets/d1b5a6b0-91d6-4198-a2f6-a9770555fdb6" alt="개요 이미지" style="width:100%; max-width:1000px; display:block; margin: 0 auto;">
 최근 미세먼지와 실내 공기질 문제가 심화됨에 따라, 가정·학교·사무실 등 밀폐 공간에서의 실내 공기 상태 관리가 중요해졌습니다. 기존 상용 공기청정기들은 단순 자동 정화에만 머물러 있고, 실시간 데이터 확인이나 에너지 분석 등의 고급 기능은 부족한 상황입니다.
 
 ---
