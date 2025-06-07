@@ -1,7 +1,7 @@
 # 🌿 Smart Environmental Management System
 
 <p align="center">
-  <img width="400" src="./assets/SEMS_logo.jpg" alt="SEMS Logo">
+  <img width="800" src="./assets/SEMS_logo.jpg" alt="SEMS Logo">
 </p>
 
 
