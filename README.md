@@ -92,5 +92,9 @@
 본 시스템은 아두이노 + 라즈베리파이 기반의 IoT 구조로 센서 데이터를 수집하고,  
 MQTT를 통해 웹 서버와 통신하여 사용자에게 실시간 시각화 및 제어 기능을 제공합니다.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b13e4222-e57a-4a94-bc07-c59ab8345f60" alt="시스템 구성도" style="width:100%; max-width:1000px; display:block; margin: 0 auto;">
+</p>
+
 
 
