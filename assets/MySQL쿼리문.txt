@@ -1,0 +1,78 @@
+CREATE DATABASE springdb DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+select * from chatmessage;
+select * from sensor_data;
+select * from users;
+select * from environment_data;
+SELECT * FROM sensor_data LIMIT 30000;
+
+SELECT COUNT(*) FROM sensor_data;
+
+UPDATE users SET isAdmin = 1 WHERE id = 'admin';
+
+CREATE TABLE device (
+  device_name VARCHAR(255) PRIMARY KEY  -- "교실 1", "roomA" 등
+);
+
+CREATE TABLE environment_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    sensor_data_id INT,
+    temperature FLOAT,
+    humidity FLOAT,
+    dust FLOAT,
+    timestamp DATETIME,
+    avg_temperature FLOAT,
+    avg_humidity FLOAT,
+    avg_dust FLOAT
+);
+DROP TABLE IF EXISTS environment_data;
+DROP TABLE IF EXISTS sensor_data;
+INSERT INTO environment_data (sensor_data_id, temperature, humidity, dust, timestamp)
+VALUES
+(9999, 24.3, 48.5, 35, '2025-06-03 10:00:00'),sensor_data
+(9999, 25.1, 47.2, 38, '2025-06-03 11:00:00'),
+(9999, 26.7, 45.9, 40, '2025-06-03 12:00:00'),
+(9999, 27.2, 44.8, 45, '2025-06-03 13:00:00'),
+(9999, 28.4, 44.0, 70, '2025-06-03 14:00:00');
+
+
+select * from environment_data;
+
+DESCRIBE sensor_data;
+DESCRIBE environment_data;
+
+
+-- sensor_data에 device_name 필드 추가
+ALTER TABLE sensor_data
+ADD COLUMN device_name VARCHAR(100);
+
+-- 외래키 설정
+ALTER TABLE sensor_data
+ADD CONSTRAINT fk_sensor_device
+FOREIGN KEY (device_name) REFERENCES device(device_name);
+
+-- environment_data → sensor_data 관계
+ALTER TABLE environment_data
+ADD CONSTRAINT fk_env_sensor
+FOREIGN KEY (sensor_data_id) REFERENCES sensor_data(id);
+
+-- chatmessage → users 관계
+ALTER TABLE chatmessage
+ADD CONSTRAINT fk_chat_sender
+FOREIGN KEY (senderId) REFERENCES users(id);
+
+ALTER TABLE chatmessage
+ADD CONSTRAINT fk_chat_sender
+FOREIGN KEY (senderId) REFERENCES users(nickname);
+
+ALTER TABLE chatmessage
+ADD CONSTRAINT fk_chat_receiver
+FOREIGN KEY (receiverId) REFERENCES users(nickname);
+
+ALTER TABLE device
+ADD COLUMN user_id VARCHAR(255);
+
+ALTER TABLE device
+ADD CONSTRAINT fk_device_user
+FOREIGN KEY (user_id) REFERENCES users(id);
+
+
