@@ -114,7 +114,7 @@ MQTT를 통해 웹 서버와 통신하여 사용자에게 실시간 시각화 �
 
 | 김현호 (팀장) | 임종원 | 나은주 | 한민서 |
 |:------------:|:------:|:------:|:------:|
-| <img src="./assets/kim.jpg" width="100"> | <img src="./assets/lim.jpg" width="100"> | <img src="./assets/na.jpg" width="100"> | <img src="./assets/han.jpg" width="100"> |
+| <img src="./assets/kim.jpg" width="150"> | <img src="./assets/lim.jpg" width="150"> | <img src="./assets/na.jpg" width="150"> | <img src="./assets/han.jpg" width="150"> |
 | 하드웨어 / MQTT 통신 / 시스템 설계 | 채팅 기능 / MQTT 파싱 / Git 관리 | 웹 UI / 백엔드 / React 설계 | SPA 구조 / UI 설계 / React |
 
 
