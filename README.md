@@ -80,17 +80,23 @@
 ### 🖥️ 웹 기반 통합 제어 UI (React)
 - 로그인, 대시보드, 데이터 분석, 제어, 문의 내역 기능 탑재
 
+<br>
+
 ## 🧩 시스템 구성도
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b13e4222-e57a-4a94-bc07-c59ab8345f60" alt="시스템 구성도" style="width:100%; max-width:1000px; display:block; margin: 0 auto;">
 </p>
 
+<br>
+
 ## 🗂️ 데이터베이스 ERD
 
 <p align="center">
   <img src="./assets/ERD.png" alt="ERD 다이어그램" style="width:100%; max-width:1000px; display:block; margin: 0 auto;">
 </p>
+
+<br>
 
 ## 🛠️ 개발 환경
 
@@ -105,6 +111,7 @@
 - **협업 도구**: ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)  
 - **디자인**: ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
 
+<br>
 
 ## 👥 팀원 소개
 
@@ -112,6 +119,8 @@
 |:------------:|:------:|:------:|:------:|
 | <img src="./assets/kim.jpg" width="200"> | <img src="./assets/lim.jpg" width="200"> | <img src="./assets/na.jpg" width="200"> | <img src="./assets/han.jpg" width="200"> |
 | 하드웨어 / MQTT 통신 / 시스템 설계 | 채팅 기능 / MQTT 파싱 / Git 관리 | 웹 UI / 백엔드 / React 설계 | SPA 구조 / UI 설계 / React |
+
+<br>
 
 ## 📁 프로젝트 구조
 
