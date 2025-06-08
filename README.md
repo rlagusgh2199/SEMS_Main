@@ -4,7 +4,9 @@
   <img width="850" src="./assets/SEMS_logo.jpg" alt="SEMS Logo">
 </p>
 
+<br>
 # 📌 프로젝트 개요
+<br>
 
 ### 🔍 개발 배경 및 필요성
 
