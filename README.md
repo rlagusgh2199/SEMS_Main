@@ -123,6 +123,22 @@ MQTT를 통해 웹 서버와 통신하여 사용자에게 실시간 시각화 �
   <img src="./assets/ERD.png" alt="ERD 다이어그램" style="width:100%; max-width:1000px; display:block; margin: 0 auto;">
 </p>
 
-> 본 시스템은 사용자, 디바이스, 센서 데이터, 환경 분석, 실시간 채팅 기능을 갖춘  
-> **IoT 기반 스마트 환경관리 시스템**입니다.  
-> 모든 테이블은 외래키를 통해 서로 연동되며, 다음과 같은 구조를 가집니다:
+## 📁 프로젝트 구조
+
+- 📂 **arduino**  
+  └─ 센서 측정 및 팬 제어를 위한 아두이노 코드 
+
+- 📂 **rasberrypi**  
+  └─ MQTT 통신을 위한 라즈베리파이용 Python 스크립트
+
+- 📂 **web-server**  
+  └─ Spring Boot 및 Flask 기반 웹 서버 코드 
+
+- 📂 **assets**  
+  └─ README 및 문서에 사용되는 이미지 및 자료 
+
+- 📂 **project-docs**  
+  └─ 발표자료, 보고서 등 프로젝트 관련 문서 저장소
+
+- 📄 **README.md**  
+  └─ 프로젝트 전체 소개 및 설명 문서
