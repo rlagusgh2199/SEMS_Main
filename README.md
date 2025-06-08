@@ -6,7 +6,7 @@
 
 <br>
 
-# 프로젝트 개요
+# 📌 프로젝트 개요
 
 ### 🔍 개발 배경 및 필요성
 
@@ -56,7 +56,7 @@
 
 <br>
 
-## 주요 기능
+## 🔧 주요 기능
 
 ### 🌡️ 센서 데이터 실시간 수집 및 시각화
 - PM1.0, PM2.5, PM10, 온도, 습도, 전류 데이터를 2초 간격으로 측정하여 웹에 시각화
@@ -82,7 +82,7 @@
 
 <br>
 
-## 시스템 구성도
+## 🖧 시스템 구성도
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b13e4222-e57a-4a94-bc07-c59ab8345f60" alt="시스템 구성도" style="width:100%; max-width:1000px; display:block; margin: 0 auto;">
