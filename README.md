@@ -98,17 +98,14 @@ MQTT를 통해 웹 서버와 통신하여 사용자에게 실시간 시각화 �
 
 ## 🛠️ 개발 환경
 
-## 🛠️ 개발 환경
-
 - **Front-end**: ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)  
 - **Back-end**: ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)  
 - **Database**: ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)  
 - **MQTT 통신**: ![MQTT](https://img.shields.io/badge/MQTT-paho--mqtt-blue?style=flat&logo=python&logoColor=white)  
 - **MQTT 브로커**: ![HiveMQ](https://img.shields.io/badge/HiveMQ-FFDD00?style=flat&logo=protocols.io&logoColor=black)  
-- **IoT 디바이스**: ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=flat&logo=raspberry-pi&logoColor=white)  
-- **센서 장치**: PMS7003, DHT11, ACS712  
+- **IoT 디바이스**: ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=flat&logo=raspberry-pi&logoColor=white)   
 - **데이터 포맷**: ![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white)  
-- **배포**: ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat&logo=amazon-aws&logoColor=white)  
+- **배포(예정)**: ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat&logo=amazon-aws&logoColor=white)  
 - **협업 도구**: ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)  
 - **디자인**: ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
 
