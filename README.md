@@ -85,7 +85,7 @@
 ## 🖧 시스템 구성도
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b13e4222-e57a-4a94-bc07-c59ab8345f60" alt="시스템 구성도" style="width:100%; max-width:1000px; display:block; margin: 0 auto;">
+  <img src="./assets/시스템구성도.drawio.png" alt="ERD 다이어그램" style="width:100%; max-width:1000px; display:block; margin: 0 auto;">
 </p>
 
 <br>
